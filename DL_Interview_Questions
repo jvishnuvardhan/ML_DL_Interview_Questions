@@ -1,0 +1,9 @@
+# Computer Vision
+
+###Semantic Segmentation Vs Instance Segmentation
+
+the goal of semantic image segmentation is to label each pixel of an image with a corresponding class of what is being represented. One important thing to note is that we're not separating instances of the same class; we only care about the category of each pixel. In other words, if you have two objects of the same category in your input image, the segmentation map does not inherently distinguish these as separate objects. 
+
+There exists a different class of models, known as instance segmentation models, which do distinguish between separate objects of the same class.
+
+[Check here](https://www.jeremyjordan.me/semantic-segmentation/) for more details
